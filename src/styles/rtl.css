@@ -1,3 +1,10 @@
+/* יישור כללי לימין + RTL */
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* כללים שמופעלים כשיש dir="rtl" על html */
 html[dir="rtl"] body {
   direction: rtl;
   text-align: right;
@@ -16,4 +23,3 @@ html[dir="rtl"] p,
 html[dir="rtl"] li {
   text-align: right;
 }
-
