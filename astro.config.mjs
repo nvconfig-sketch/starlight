@@ -14,7 +14,7 @@ export default defineConfig({
         },
       },
       defaultLocale: 'he',
-      customCss: ['src/styles/rtl.css'],
+      customCss: ['/src/styles/rtl.css'],
       // פה שאר ההגדרות שלך: social, sidebar וכו'
     }),
   ],
