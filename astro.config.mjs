@@ -6,7 +6,17 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'DM-Safety',
+			locales: {
+   			 he: {
+    			  label: 'עברית',
+    			  lang: 'he',
+     			  dir: 'rtl',
+				  root: true,
+				    },
+  },
+  defaultLocale: 'he',
+})
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
